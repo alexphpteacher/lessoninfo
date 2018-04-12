@@ -6,6 +6,9 @@
  * Time: 12:37
  */
 
+/**
+ * @param $i
+ */
 function f($i) {
 }
 
