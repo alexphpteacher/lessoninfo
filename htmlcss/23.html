@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        * {
+            font-family: Arial;
+        }
+
+
+        p {
+            color: red;
+            font-weight: bold;
+        }
+
+        a {
+            font-size:14px;
+            text-decoration:none;
+        }
+
+        .first {
+            color: green;
+        }
+
+        .second {
+            color: blue;
+        }
+
+        .red-text {
+            color: red !important;
+        }
+
+        #d1 {
+            color:darkgreen;
+        }
+        #d2 {
+            color:darkblue;
+        }
+        #d3 {
+            color:yellow;
+        }
+
+        #d1, #d2 {
+            font-size: 20px;
+        }
+        .first p {
+            font-size: 15px;
+        }
+        .first > p {
+            color:yellow;
+        }
+
+        .bar-5 + .bar-6 {
+            color: blue;
+        }
+
+        .foo .bar-2:hover {
+            color: green;
+        }
+
+        input[type=text] {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<h1> This is a test </h1>
+<p>
+    Hello world! This is a <a href='http://google.com?q=css'>CSS</a> first test.
+</p>
+
+<p style='color:blue'>
+    Hello.
+</p>
+
+<div class="first">first div </div>
+<div class="second">second div</div>
+<div class="second red-text">second red-text div</div>
+
+
+<div id="d1" class="first">d1 first div </div>
+<div id="d2" class="second">d2 second div</div>
+<div id="d3" class="second red-text">d3 second red-text div</div>
+
+<div class="first">
+    <p>p inside div first</p>
+</div>
+<div class="first">
+    <div>
+        <p>p inside div inside div first</p>
+    </div>
+</div>
+
+<div>
+
+    <div class='foo'>
+        <div class='bar-1'>Hello-1
+            <div class='bar-2'>Hello-2</div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class='foo'>
+        <div class='bar-3'>Hello-3
+            <div class='bar-4'>Hello-4</div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class='bar-5'>Hello-5</div>
+    <div class='bar-6'>Hello-6</div>
+
+    <br>
+
+    <input type='text'> <br>
+    <input type='email'> <br>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first document</title>
+
+    <!-- Keywords for your web page -->
+    <meta name="keywords" content="PHP, MySQL, HTML, CSS, JavaScript">
+
+    <!-- Description for your web page -->
+    <meta name="description" content="This is a web development course.">
+
+    <!-- Author of page content -->
+    <meta name="author" content="PHP Academy">
+</head>
+<body>
+    <a name="top"></a>
+    <h1>Hello, people!</h1>
+    <!--some text-->
+
+    <!--This is my first web page.-->
+    And this is my first link: <a href='http://google.com'>google</a>
+
+    <h1>The end</h1>
+
+    <!--форматирование текста-->
+    <strong>Strong (Bold)</strong> <br />
+    <i>Italic</i> <br />
+    <u>Underlined</u> <br />
+    <s>Stroked</s> <br />
+    <small>Smaller</small> <br />
+    <big>Bigger</big> <br />
+    A<sup>sup</sup> <br />
+    A<sub>sub</sub> <br />
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h6>Heading 6</h6>
+
+
+    <pre>
+|---------------|
+|---------------|
+       |||
+       |||
+       |||
+       |||
+       |||
+       |||
+       |||
+       |||
+       |||
+       |||
+</pre>
+
+
+    |---------------|
+    |---------------|
+    |||
+    |||
+    | |             |
+
+    <big>Special symbols</big> <br />
+    &nbsp; - символ неразрывного пробела<br />
+
+    &sect; - символ параграфа<br />
+
+    &copy; - символ защиты авторских прав<br />
+
+    &plusmn; - символ плюс-минус<br />
+
+    &quot; - символ двойная кавычка<br />
+
+    &lt; - левая треугольная скобка или знак меньше<br />
+
+    &gt; - правая треугольная скобка или знак больше<br />
+    BEGIN &lt;br /&gt; END&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;!<br />
+
+    <!--изображения-->
+    <pre>
+    GIF (Graphics Interchange Format) - используется как правило для небольших иконок с небольшим спектром цветов и прозрачностью
+
+    JPEG (Joint Photographic Experts Group) - используется для отображения полноценных изображений, например фотографий
+
+    PNG (Portable Network Graphics) - используется часто для фоновых изображений элементов веб-документа, допускает прозрачность, имеет хорошее качество
+
+    SVG (Scalable Vector Graphics) - используется для создания векторной графики в формате XML.</pre>
+
+    <img src='https://devionity.com/img/lectures/animation.gif' alt='Animtaion' title='This is animation gif' /><br />
+    <img src='https://devionity.com/img/lectures/fish-error-link.png' alt='Fish' title='his is transparent png' /><br />
+    <img src='https://devionity.com/img/lectures/fish.png' alt='Fish' title='his is transparent png' /><br />
+    <!--ссылки-->
+
+    <a href='http://google.com/' title='Take me to Google' target='_blank'>Go!</a> <br />
+
+    <a href="01.txt">Ссылка на главную страницу проекта</a><br />
+    <a href='#top'>Go up</a><br /><br />
+    <!--списки-->
+    <ul>
+        <li> Cat </li>
+        <li> Dog </li>
+        <li> Pig </li>
+    </ul><br />
+    <ul>
+        <li>Dog</li>
+        <li>Cat
+            <ul type = 'square'>
+                <li>Nice</li>
+                <li>Warm</li>
+            </ul>
+        </li>
+        <li>Parrot</li>
+    </ul>
+    <ul>
+        <li> Cat </li>
+        <li> Dog</li>
+        <li> Pig </li>
+    </ul>
+
+    <br><br>
+
+    Также, к нумерованному списку можно использовать атрибут type<br /><br />
+
+    Значения:<br />
+    type='1' список будет промаркирован цифрами (задано по умолчанию)<br />
+    type='A' список будет промаркирован заглавными буквами<br />
+    tyре='а' список будет промаркирован буквами в нижнем регистре (маленькими)<br />
+    type='I' список будет промаркирован римскими цифрами<br />
+    type='i' список будет промаркирован римскими цифрами в нижнем регистре<br />
+    <br />
+    Пример списка, промаркированного римскими цифрами рассмотрен ниже.<br /><br />
+    <ol>
+        <li>Dog</li>
+        <li>Cat
+            <ul type = 'square'>
+                <li>Nice</li>
+                <li>Warm</li>
+            </ul>
+        </li>
+        <li>Parrot</li>
+    </ol>
+
+    <br><br>
+
+    <ol type="I">
+        <li>Introduction</li>
+        <li>Content</li>
+        <li>Questions</li>
+        <li>Conclusions</li>
+    </ol>
+
+    <br><br>
+
+    <dl>
+        <dt>Cat</dt>
+        <dd> - is nice and everyone likes him</dd>
+        <dt>Dog</dt>
+        <dd> - is the best</dd>
+    </dl>
+
+
+    <!--таблицы-->
+    <table>
+    <!--<table border='2' cellspacing='10'>-->
+    <!--<table border='2' cellpadding='10'>-->
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+    <table border='2' cellspacing='5' cellpadding='5'>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td colspan=2>4 & 5</td>
+            <!-- here was a td that is now united with the previous  -->
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table border='2' cellspacing='5' cellpadding='5'>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td rowspan=2>5 <br /> & <br /> 8</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <!-- here was a td that is now united with the above  -->
+            <td>9</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table border='1' cellpadding='5'>
+        <tr>
+            <td rowspan='2'>Vertical</td>
+            <td colspan='2'>Horizont</td>
+        </tr>
+        <tr>
+
+            <td>Something 1</td>
+            <td>Something 2</td>
+        </tr>
+    </table>
+  <pre>
+        Также в теге &lt;table> допускается использование атрибутов width, height для задания ширины и высоты таблицы,
+        а также атрибута align для выравнивания ее относительно внешней среды.
+
+        В теге &lt;td> допускается использования атрибутов align,
+            valign для выравнивания текста внутри ячейки по горизонтали (left, center, right) и
+            по вертикали (bottom, middle, top).
+
+        &lt;td align='left' valign='bottom'> 1 &lt;/td>
+    </pre>
+
+    <!--формы-->
+
+    <!--фреймы-->
+
+    <!--блочные (block) и строковые (inline).-->
+
+</body>
+</html>
